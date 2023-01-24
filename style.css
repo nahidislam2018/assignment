@@ -1,0 +1,45 @@
+.bg_img{
+    background-image: url(./images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 58.697vh;
+    width: 59.375vw;
+}
+.liner_grediant{
+    height: 58.697vh;
+    background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+}
+.carousel-caption{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+@media screen and (max-width: 576px) {
+    .carousel-header{
+        font-size: 18px;
+        margin: 0;
+    }
+    .carousel-paragraph{
+        font-size: 8px;
+        margin: 0;
+    }
+    .carousel-sub-tittle{
+        font-size: 12px;
+        margin: 0;
+    }
+    .carousel-image{
+        width: 25px;
+        height: 25px;
+        margin-top: 18px;
+        
+    }
+    .bg_img{
+        width: 100%;
+        
+    }
+    
+    
+}
